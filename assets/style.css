@@ -2,14 +2,97 @@ nav {
     margin-bottom: 15px;
 }
 
-img {
+.img-fluid {
+    height: 200px;
+    width: 260px;
     margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    box-shadow: 5px 10px 25px darkgray;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .navbar-nav {
-    margin-left: 70%;
+    margin-left: 65%;
 }
 
 .navbar-brand {
     margin-left: 5%;
+    font-size: 30px;
+}
+
+h1 {
+    margin-bottom: 15px;
+    margin-left: 5%;
+}
+
+.col-md-3 {
+    position: relative;
+}
+
+.container1 {
+    margin: 0% auto;
+    margin-left: 5%;
+}
+
+.statsImg {
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.policeImg {
+    border-radius: 15px;
+    border: 5px solid darkgrey;
+    margin-bottom: 15px;
+}
+
+.ticketImg {
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.statsBtn {
+    background-color: darkblue;
+    color: white;
+    width: 200px;
+    border-radius: 15px;
+    height: auto;
+    position: absolute;
+    top: 0;
+    text-align: center;
+}
+
+.statsBtn:hover {
+    background-color: darkred;
+}
+
+.policeBtn {
+    background-color: darkblue;
+    color: white;
+    width: 200px;
+    border-radius: 15px;
+    height: auto;
+    position: absolute;
+    top: 0;
+    text-align: center;
+}
+
+.policeBtn:hover {
+    background-color: darkred;
+}
+
+.ticketBtn {
+    background-color: darkblue;
+    color: white;
+    width: 200px;
+    border-radius: 15px;
+    height: auto;
+    position: absolute;
+    top: 0;
+    text-align: center;
+}
+
+.ticketBtn:hover {
+    background-color: darkred;
 }
