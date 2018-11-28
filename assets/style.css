@@ -2,15 +2,17 @@ nav {
     margin-bottom: 15px;
 }
 
-.img-fluid {
-    height: 200px;
-    width: 260px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+.img {
+    margin-right: 25px;
+    margin-bottom: 5px;
     border-radius: 15px;
     box-shadow: 5px 10px 25px darkgray;
-    margin-left: auto;
-    margin-right: auto;
+}
+
+#profilePic {
+    height: auto;
+    width: 50%;
+    max-width: 270px;
 }
 
 .navbar-nav {
@@ -22,9 +24,9 @@ nav {
     font-size: 30px;
 }
 
-h1 {
+h2 {
     margin-bottom: 15px;
-    margin-left: 5%;
+    margin-left: 6%;
 }
 
 .col-md-3 {
@@ -95,4 +97,16 @@ h1 {
 
 .ticketBtn:hover {
     background-color: darkred;
+}
+
+footer {
+    background-color: darkred;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
 }
