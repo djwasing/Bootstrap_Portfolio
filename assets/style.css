@@ -9,6 +9,10 @@ nav {
     box-shadow: 5px 10px 25px darkgray;
 }
 
+.btn-primary {
+    background-color: darkblue;
+}
+
 #profilePic {
     height: auto;
     width: 50%;
