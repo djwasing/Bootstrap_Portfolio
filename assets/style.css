@@ -34,8 +34,10 @@ h2 {
 }
 
 .container1 {
-    margin: 0% auto;
-    margin-left: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+    /*margin-left: 5%;*/
 }
 
 .statsImg {
@@ -43,11 +45,11 @@ h2 {
     margin-bottom: 15px;
 }
 
-.policeImg {
+/* .policeImg {
     border-radius: 15px;
     border: 5px solid darkgrey;
     margin-bottom: 15px;
-}
+} */
 
 .ticketImg {
     border-radius: 15px;
@@ -69,7 +71,16 @@ h2 {
     background-color: darkred;
 }
 
-.policeBtn {
+#policeImg {
+    border: solid 5px darkgray; 
+    height: 287px;
+}
+
+#musicImg {
+    height: 287px;
+}
+
+/* .policeBtn {
     background-color: darkblue;
     color: white;
     width: 200px;
@@ -78,11 +89,11 @@ h2 {
     position: absolute;
     top: 0;
     text-align: center;
-}
+} */
 
-.policeBtn:hover {
+/* .policeBtn:hover {
     background-color: darkred;
-}
+} */
 
 .ticketBtn {
     background-color: darkblue;
