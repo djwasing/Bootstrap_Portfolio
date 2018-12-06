@@ -13,6 +13,16 @@ nav {
     background-color: darkblue;
 }
 
+#avatar {
+    border-radius: 50%;
+    float: left;
+    margin-left: 5%;
+}
+
+.nameText {
+    
+}
+
 #profilePic {
     height: auto;
     width: 50%;
@@ -24,7 +34,7 @@ nav {
 }
 
 .navbar-brand {
-    margin-left: 5%;
+    margin-left: 2%;
     font-size: 30px;
     font-weight: bold;
 }
