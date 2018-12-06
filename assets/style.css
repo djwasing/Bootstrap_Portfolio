@@ -30,8 +30,11 @@ nav {
 }
 
 .navbar-nav {
-    margin-left: 65%;
+    justify-content: flex-end;
+    margin-right: 5%;
 }
+
+
 
 .navbar-brand {
     margin-left: 2%;
@@ -80,6 +83,22 @@ h2 {
     position: absolute;
     top: 0;
     text-align: center;
+}
+
+/* .mediaLogos {
+    margin-right: auto;
+} */
+
+.nav-item {
+    line-height: 200%;
+}
+
+.twitterLink {
+    margin-right: 8px;
+}
+
+.githubLink {
+    margin-right: 8px;
 }
 
 .statsBtn:hover {
