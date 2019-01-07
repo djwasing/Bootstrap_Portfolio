@@ -2,12 +2,12 @@ nav {
     margin-bottom: 15px;
 }
 
-.img {
+/* .img {
     margin-right: 25px;
     margin-bottom: 7px;
     border-radius: 15px;
     box-shadow: 5px 10px 25px darkgray;
-}
+} */
 
 .btn-primary {
     background-color: darkblue;
@@ -19,14 +19,20 @@ nav {
     margin-left: 5%;
 }
 
+.photos1 {
+    border-radius: 12px;
+    box-shadow: 5px 10px 25px darkgray;
+}
+
 .nameText {
     
 }
 
-#profilePic {
+.photos {
     height: auto;
     width: 50%;
     max-width: 270px;
+    margin-right: 25px;
 }
 
 .navbar-nav {
