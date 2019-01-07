@@ -13,6 +13,10 @@ nav {
     background-color: darkblue;
 }
 
+/* #navbarNavAltMarkup.navbar-collapse.collapse.show {
+
+} */
+
 #avatar {
     border-radius: 50%;
     float: left;
@@ -24,9 +28,7 @@ nav {
     box-shadow: 5px 10px 25px darkgray;
 }
 
-.nameText {
-    
-}
+
 
 .photos {
     height: auto;
