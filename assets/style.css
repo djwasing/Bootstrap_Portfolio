@@ -162,10 +162,6 @@ body {
 /* Mobile Media */
 
 @media only screen and (max-width: 800px) {
-    #photos1 {
-        width: 90%;
-        margin: 20px 5%;
-    }
 
     .side-navBar {
         display: none;
@@ -181,12 +177,13 @@ body {
     }
 
     .bannerText {
-        margin-top: 150px;
-        margin-left: 15px;
+        margin: 24px auto;
+        font-size: 40px;
     }
 
     #infoArea {
         width: 100%;
+        margin-top: -50px;
     }
 
     .container1 {
@@ -199,6 +196,7 @@ body {
 
     #contactArea {
         width: 400px;
+        margin-left: -6%;
     }
 
 }
