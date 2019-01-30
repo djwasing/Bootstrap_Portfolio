@@ -1,14 +1,23 @@
+
+body {
+    background-image: url(../assets/images/black-and-white-colorado-mountains-42297.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
 .banner {
-    height: 300px;
+    height: 250px;
     margin-top: 12px;
     border-radius: 12px;
     width: 100%;
     overflow: hidden;
-    background-image: url(../assets/images/wallpaper.Farmhouse.jpg);
+    /* background-image: url(../assets/images/custom-speedometer-gauge-11-1200x795\ 2.jpg); */
     background-position: center center;
     background-size: cover;
     -webkit-background-size: cover;
-    box-shadow: 5px 10px 25px darkgray;
+    /* box-shadow: 5px 10px 25px darkgray; */
 }
 
 .bannerText {
@@ -17,18 +26,19 @@
     margin-left: 50px;
     color: white;
     font-size: 60px;
-    font-family: 'IM Fell Double Pica', serif;
+    font-family: 'Sorts Mill Goudy';
 }
 
 .side-navBar {
     height: 100%;
-    width: 160px;
+    width: 165px;
     position: fixed;
     top: 0;
     left: 0;
-    background-color: #286da8;
+    background-color: #22282e;
     overflow: hidden;
     padding-top: 24px;
+    border-right: 5px solid white;
 }
 
 .side-navBar a {
@@ -40,28 +50,25 @@
     font-family: 'Sorts Mill Goudy';
 }
 
-.quote {
-    padding: 20px 20px 16px 25px;
-    font-size: 14px;
-    color: white;
-    display: block;
-    font-family: 'Charm', cursive;
-}
-
 .githubLink {
     margin-top: 18px;
-    margin-left: 42px;
+    margin-left: 40px;
+}
+
+#navTop {
+    width: 160px;
+
 }
 
 .title {
-    font-family: 'IM Fell Double Pica', serif;
-}
-
-.btn {
-    background-color: #641a21;
+    font-family: 'Crimson Text', serif;
     color: white;
 }
 
+.btn {
+    background-color: #22282e;
+    color: white;
+}
 
 /* .img {
     margin-right: 25px;
@@ -78,19 +85,18 @@
 #infoArea {
     max-width: 85%;
     margin: 48px auto;
+    color: white;
+    padding: 30px;
+    background-color: #3e4347d0;
+    border-radius: 4px;
+    margin-top: 50%;
+    box-shadow: 5px 10px 25px rgb(46, 46, 46);
 }
 
 #portfolioArea {
     max-width: 85%;
-    margin: 48px auto;
-}
-
-.photos1 {
-    border-radius: 12px;
-    box-shadow: 5px 10px 25px darkgray;
-    width: 240px;
-    float: left;
-    margin-right: 30px;
+    margin: 56px auto;  
+    font-family: 'Crimson Text', serif; 
 }
 
 /* .photos {
@@ -111,7 +117,9 @@
 
 .card2 {
     margin-top: 40px;
-    box-shadow: 5px 10px 25px darkgray;
+    box-shadow: 5px 10px 25px rgb(46, 46, 46);
+    background-color: #3e4347d0;
+    color: white;
 }
 
 .col-md-3 {
@@ -120,7 +128,9 @@
 
 .card1 {
     border-radius: 8px;
-    box-shadow: 5px 10px 25px darkgray;
+    box-shadow: 5px 10px 25px rgb(46, 46, 46);
+    background-color: #3e4347d0;
+    color: white;
 }
 
 .statsImg {
@@ -147,4 +157,48 @@
 
 .form {
     text-align: center;
+}
+
+/* Mobile Media */
+
+@media only screen and (max-width: 800px) {
+    #photos1 {
+        width: 90%;
+        margin: 20px 5%;
+    }
+
+    .side-navBar {
+        display: none;
+    }
+
+    .wrapper {
+        margin: 25px auto;
+    }
+
+    .banner {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .bannerText {
+        margin-top: 150px;
+        margin-left: 15px;
+    }
+
+    #infoArea {
+        width: 100%;
+    }
+
+    .container1 {
+        margin: 0 5%;
+    }
+
+    .card1 {
+        margin-top: 40px;
+    }
+
+    #contactArea {
+        width: 400px;
+    }
+
 }
