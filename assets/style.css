@@ -153,6 +153,10 @@ h2 {
     background-color: darkred;
 }
 
+.form {
+    text-align: center;
+}
+
 footer {
     background-color: darkred;
     color: white;
