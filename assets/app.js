@@ -1,9 +1,9 @@
 $(document).ready(function() {
     console.log("ready");
-    $("#infoArea").click(function() {
+    $("a").click(function() {
         $("html, body").animate({
             scrollTop: $( $(this).attr("href") ).offset().top 
-        }, 2000);
+        }, 2 000);
         return false;
     });
 
