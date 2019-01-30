@@ -1,71 +1,126 @@
-nav {
-    margin-bottom: 15px;
+.banner {
+    height: 300px;
+    margin-top: 12px;
+    border-radius: 12px;
+    width: 100%;
+    overflow: hidden;
+    background-image: url(../assets/images/wallpaper.Farmhouse.jpg);
+    background-position: center center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    box-shadow: 5px 10px 25px darkgray;
 }
+
+.bannerText {
+    width: 100%;
+    margin-top: 175px;
+    margin-left: 50px;
+    color: white;
+    font-size: 60px;
+    font-family: 'IM Fell Double Pica', serif;
+}
+
+.side-navBar {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #286da8;
+    overflow: hidden;
+    padding-top: 24px;
+}
+
+.side-navBar a {
+    padding: 20px 10px 10px 25px;
+    font-size: 18px;
+    color: white;
+    display: block;
+    text-transform: uppercase;
+    font-family: 'Sorts Mill Goudy';
+}
+
+.quote {
+    padding: 20px 20px 16px 25px;
+    font-size: 14px;
+    color: white;
+    display: block;
+    font-family: 'Charm', cursive;
+}
+
+.githubLink {
+    margin-top: 18px;
+    margin-left: 42px;
+}
+
+.title {
+    font-family: 'IM Fell Double Pica', serif;
+}
+
+.btn {
+    background-color: #641a21;
+    color: white;
+}
+
 
 /* .img {
     margin-right: 25px;
     margin-bottom: 7px;
-    border-radius: 15px;
+    border-radius: 15px; 
     box-shadow: 5px 10px 25px darkgray;
 } */
 
-.btn-primary {
-    background-color: darkblue;
+.wrapper {
+    margin-left: 180px;
+    padding: 0 10px;
 }
 
-/* #navbarNavAltMarkup.navbar-collapse.collapse.show {
+#infoArea {
+    max-width: 85%;
+    margin: 48px auto;
+}
 
-} */
-
-#avatar {
-    border-radius: 50%;
-    float: left;
-    margin-left: 5%;
+#portfolioArea {
+    max-width: 85%;
+    margin: 48px auto;
 }
 
 .photos1 {
     border-radius: 12px;
     box-shadow: 5px 10px 25px darkgray;
+    width: 240px;
+    float: left;
+    margin-right: 30px;
 }
 
-
-
-.photos {
+/* .photos {
     height: auto;
     width: 50%;
-    max-width: 270px;
+    max-width: 200px;
     margin-right: 25px;
+} */
+
+.aboutMe {
+    font-family: 'IM Fell Double Pica', serif;
+    font-size: 20px;
 }
 
-.navbar-nav {
-    justify-content: flex-end;
-    margin-right: 5%;
+#portfolioArea {
+    margin-bottom: 64px;
 }
 
 .card2 {
     margin-top: 40px;
-}
-
-.navbar-brand {
-    margin-left: 2%;
-    font-size: 30px;
-    font-weight: bold;
-}
-
-h2 {
-    margin-bottom: 15px;
-    margin-left: 6%;
+    box-shadow: 5px 10px 25px darkgray;
 }
 
 .col-md-3 {
     position: relative;
 }
 
-.container1 {
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-bottom: 10%;
-    /*margin-left: 5%;*/
+.card1 {
+    border-radius: 8px;
+    box-shadow: 5px 10px 25px darkgray;
 }
 
 .statsImg {
@@ -73,98 +128,23 @@ h2 {
     margin-bottom: 15px;
 }
 
-/* .policeImg {
-    border-radius: 15px;
-    border: 5px solid darkgrey;
-    margin-bottom: 15px;
-} */
-
 .ticketImg {
     border-radius: 15px;
     margin-bottom: 15px;
-}
-
-.statsBtn {
-    background-color: darkblue;
-    color: white;
-    width: 200px;
-    border-radius: 15px;
-    height: auto;
-    position: absolute;
-    top: 0;
-    text-align: center;
-}
-
-/* .mediaLogos {
-    margin-right: auto;
-} */
-
-.nav-item {
-    line-height: 200%;
-}
-
-.twitterLink {
-    margin-right: 8px;
-}
-
-.githubLink {
-    margin-right: 8px;
-}
-
-.statsBtn:hover {
-    background-color: darkred;
 }
 
 #policeImg { 
     height: 287px;
 }
 
+#contactArea {
+    margin-bottom: 80px;
+}
+
 #musicImg {
     height: 287px;
 }
 
-/* .policeBtn {
-    background-color: darkblue;
-    color: white;
-    width: 200px;
-    border-radius: 15px;
-    height: auto;
-    position: absolute;
-    top: 0;
-    text-align: center;
-} */
-
-/* .policeBtn:hover {
-    background-color: darkred;
-} */
-
-.ticketBtn {
-    background-color: darkblue;
-    color: white;
-    width: 200px;
-    border-radius: 15px;
-    height: auto;
-    position: absolute;
-    top: 0;
-    text-align: center;
-}
-
-.ticketBtn:hover {
-    background-color: darkred;
-}
-
 .form {
     text-align: center;
-}
-
-footer {
-    background-color: darkred;
-    color: white;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-    height: 30px;
-    line-height: 30px;
-    font-size: 12px;
 }
