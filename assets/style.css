@@ -178,7 +178,7 @@ body {
 @media only screen and (max-width: 700px) {
 
     .side-navBar {
-        display: none;
+        width: 80px;
     }
 
     #bannerSub {
@@ -186,16 +186,19 @@ body {
     }
 
     .wrapper {
-        margin: 25px auto;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        margin-left: 55px;
+        margin-right: -70px;
     }
 
     .banner {
-        width: 90%;
-        margin: 0 auto;
+        margin-left: 15px;
+        width: 100%;
     }
 
     .bannerText {
-        margin: 24px auto;
+        margin: 24px 15px;
         font-size: 40px;
     }
 
@@ -215,6 +218,18 @@ body {
     #contactArea {
         width: 400px;
         margin: 0 auto;
+    }
+
+    .photo {
+        margin: 10px auto;
+    }
+
+    #nav {
+        font-size: 8px;
+    }
+
+    .githubLink {
+        margin-left: 0;
     }
 
 }
