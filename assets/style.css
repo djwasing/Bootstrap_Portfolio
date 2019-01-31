@@ -12,11 +12,12 @@ body {
     margin-top: 12px;
     border-radius: 12px;
     width: 100%;
-    overflow: hidden;
+    -webkit-background-size: cover; 
+    /* overflow: hidden; */
     /* background-image: url(../assets/images/custom-speedometer-gauge-11-1200x795\ 2.jpg); */
-    background-position: center center;
+    /* background-position: center center;
     background-size: cover;
-    -webkit-background-size: cover;
+    */
     /* box-shadow: 5px 10px 25px darkgray; */
 }
 
@@ -26,6 +27,13 @@ body {
     margin-left: 50px;
     color: white;
     font-size: 60px;
+    font-family: 'Sorts Mill Goudy';
+}
+
+.bannerSub {
+    color: white;
+    font-size: 20px;
+    margin-left: 60px;
     font-family: 'Sorts Mill Goudy';
 }
 
@@ -161,9 +169,13 @@ body {
 
 /* Mobile Media */
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 700px) {
 
     .side-navBar {
+        display: none;
+    }
+
+    .bannerSub {
         display: none;
     }
 
