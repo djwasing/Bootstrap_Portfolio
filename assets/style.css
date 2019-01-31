@@ -194,7 +194,7 @@ body {
 
     .banner {
         margin-left: 15px;
-        width: 100%;
+        width: 90%;
     }
 
     .bannerText {
@@ -221,7 +221,7 @@ body {
     }
 
     .photo {
-        margin: 10px auto;
+        margin: 10px 5%;
     }
 
     #nav {
