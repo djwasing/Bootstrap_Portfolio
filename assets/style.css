@@ -13,12 +13,6 @@ body {
     border-radius: 12px;
     width: 100%;
     -webkit-background-size: cover; 
-    /* overflow: hidden; */
-    /* background-image: url(../assets/images/custom-speedometer-gauge-11-1200x795\ 2.jpg); */
-    /* background-position: center center;
-    background-size: cover;
-    */
-    /* box-shadow: 5px 10px 25px darkgray; */
 }
 
 .bannerText {
@@ -82,13 +76,6 @@ body {
     color: white;
 }
 
-/* .img {
-    margin-right: 25px;
-    margin-bottom: 7px;
-    border-radius: 15px; 
-    box-shadow: 5px 10px 25px darkgray;
-} */
-
 .wrapper {
     margin-left: 180px;
     padding: 0 10px;
@@ -110,13 +97,6 @@ body {
     margin: 56px auto;  
     font-family: 'Crimson Text', serif; 
 }
-
-/* .photos {
-    height: auto;
-    width: 50%;
-    max-width: 200px;
-    margin-right: 25px;
-} */
 
 .aboutMe {
     font-family: 'IM Fell Double Pica', serif;
@@ -177,7 +157,7 @@ body {
     border-radius: 8px;
 }
 
-/* Mobile Media */
+/* --------- Mobile Media ---------- */
 
 @media only screen and (max-width: 700px) {
 
