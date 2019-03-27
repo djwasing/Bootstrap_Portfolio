@@ -15,6 +15,7 @@
     <link rel="stylesheet" type="text/css" media="screen" href="assets/reset.css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.0/themes/prism.min.css"/>
     <link rel="stylesheet" type="text/css" media="screen" href="assets/style.css" />
 </head>
 
@@ -25,6 +26,7 @@
             <a id="navTop" href="#banner"><i class="fas fa-angle-double-up"></i></a>
             <a id="nav" href="#infoArea">a b o u t</a>
             <a id="nav" href="#portfolioArea">P o r t f o l i o</a>
+            <a id="nav" href="#blogArea"> B l o g</a>
             <a id="nav" href="#contactArea">C o n t a c t</a>
             <a id="nav" href="assets/DonWasingerResume.pdf" target="_blank">R e s u m é <i id="downL" class="fas fa-file-download"></i></a>
             <a href="https://www.linkedin.com/in/don-wasinger-163a32173/" target="blank">
@@ -238,6 +240,59 @@
             </div>
         </div>
 
+        <div class="blogArea" id="blogArea">
+            <h2 class="title">Blog</h2>
+            <div id="blog1" class="overflow-auto">
+                <p>
+                    <h5>Initial Blog Post / MongoDB</h5>
+                    <h5 class="date">3/27/19</h5>
+                    This area of my site is going to be dedicated to blog posts. The blogs will be centered around my learning of new coding languages and technologies. I thought this would be a good way to review information and explore a bit deeper into the tech I’m currently studying. I’ve found I feel more confident if I can explain the language in my own terms to someone else, so this blog is selfishly a tool for my own learning. 
+                    <br>
+                    <br>
+                    I started the KU Coding Bootcamp in November, 2018 and have learned so much about JavaScript, CSS, Bootstrap, jQuery, MySQL, Node.js, and so many others. Obviously learning all this new information has come with challenges. There have been several times I’ve had to spend hours looking over code to find bugs, or reaching out to tutors or teachers for assistance. I think knowing how to properly utilize your resources is just as important as knowing the languages. 
+                    <br>
+                    <br>
+                    Something that hasn’t been a challenge is having the support of my wife Jackie. I’m so thankful to her for giving me her full support throughout the last several months. Starting this course just one and a half months after getting married I’m sure was not ideal, as she would have liked more time for us to spend together during the “honeymoon phase.” But she has stood by me every step of the way. 
+                    <br>    
+                    <br>
+                    The latest technology we’re learning about is MongoDB. MongoDB is a document-oriented database program. It uses objects similar to JSON to navigate the database. There is a hierarchy of elements that make up the objects that starts with the “database”. Databases consist of multiple “collections.” Collections consist of multiple “documents.” And documents contain “fields.” When writing queries you simply use dot notation as you would for a JSON object to work through the collections, documents, and fields to find the data you want. Here is an example of a query for a MongoDB database:
+                    <br>
+                    <br>
+                    <pre id="box"><code id="codeSnip" class="language-javascript">
+app.get("/all", function(req, res) {
+    db.collections.find({}, function(err, data) {
+      if (err) {
+        console.log(err);
+      }
+      else {
+        res.json(data);
+      }
+    });
+  });
+                    </code></pre>
+                    <br>
+                    Currently, this code would return all the information in the database. This data will likely be returned in the order it was created, but it’s not guaranteed to be. It will really be returned in the order the data is found. 
+                    <br>
+                    <br>
+                    In the {} of the .find() method the user can specify which exact fields they’re looking for. The user can also sort the data in order to display it alphabetically, or chronologically from when it was created, or by several other possibilities. 
+                    <br>
+                    <br>
+                    In class we created a database and populated it with data about different animals. Then we wrote queries to extract and sort the data by different parameters. For example, I wrote a query to sort and show the data by the animals weight in descending order. 
+                    <br>
+                    <br>
+                    MongoDB has been much easier to pick up and learn thanks to my experience using JSON. The syntax made sense to me more quickly than other languages we’ve learned during the program. 
+                    <br>
+                    <br>
+                    That’s all for now. Happy coding!
+                    <br>
+                    <br>
+                    - D.Wasinger
+
+                </p>
+            </div>
+              
+        </div>
+
         <div class="contactArea" id="contactArea">
             <div class="container form">
                     <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfrjpMd0qhJ8iOWHpPXNjyNarQRcmgLfUuEcActPRi20ScDTg/viewform?embedded=true" width="400" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
@@ -253,6 +308,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
     <script src="assets/app.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.0/prism.min.js"></script>
 
 
 </body>
