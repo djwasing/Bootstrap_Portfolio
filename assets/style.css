@@ -157,6 +157,37 @@ body {
     border-radius: 8px;
 }
 
+#blogArea {
+    max-width: 85%;
+    max-height: 600px;
+    margin: 48px auto;
+    color: white;
+    padding: 30px;
+    background-color: #3e4347d0;
+    border-radius: 4px;
+    box-shadow: 5px 10px 25px rgb(46, 46, 46);
+}
+
+#blog1 {
+   overflow: scroll;
+   height: 450px;
+   font-size: 17px;
+   font-family: 'IM Fell Double Pica', serif;
+}
+
+#box {
+    border-radius: 4px;
+    background-color: #333;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+#codeSnip {
+    text-shadow: none;
+    color: lightgrey;
+}
+
+
 /* --------- Mobile Media ---------- */
 
 @media only screen and (max-width: 700px) {
